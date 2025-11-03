@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#app-container {
+    border: 1px solid #ccc;
+    box-shadow: black 4px 4px 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: green;
+}
+
+#add-new-button {
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+#collection-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#collection-table th, 
+#collection-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: nowrap; 
+}
+
+#collection-table th {
+    background-color: #f2f2f2;
+}
+
+#collection-table td input {
+    width: 95%; 
+    padding: 5px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+}
+
+.actions-cell button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+}
